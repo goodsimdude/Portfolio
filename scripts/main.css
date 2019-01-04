@@ -1,0 +1,141 @@
+body {
+  background-color: #e6f2ff;
+}
+
+.container1{
+  background-image: url("images/38.jpg");
+  height: 400px;
+  background-size: cover;
+  margin-bottom: 1rem;
+}
+
+ @media all and (min-width:1000px){
+.container1 .name{
+margin-top: 200px;
+margin-left: 70px;
+}
+
+.container1 .projectpage{
+margin-left: 70px;
+}
+}
+
+@media all and (min-width:1400px){
+.container1 .name{
+margin-top: 200px;
+font-size: 3rem;
+}
+.container1 .projectpage{
+font-size: 3rem;
+}
+}
+
+/* for img I used this website https://placeimg.com/ */
+
+
+.container {
+  width: 90vw;
+  padding: 0px;
+}
+
+
+ #avatar {
+  height: 200px;
+  border-radius: 200px;
+  margin: 30px;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+
+h2 {
+ text-align: left;
+ font-family: 'Lato', sans-serif;
+ font-size: 2rem;
+background-color: #b3d9ff;
+margin: 0;
+padding: 0;
+ }
+
+
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+.icon {
+  width: 90px !important;
+  height: 100px !important;
+  padding: 0px 10px;
+  align-items: center;
+}
+
+.card-img-top {
+  height: 200px !important;
+}
+
+
+.card-text {
+  height: 20px;
+  color: white;
+}
+
+.card-p {
+  height: 140px;
+  color: white;
+}
+
+.card {
+  background-color: rgba(18, 14, 13, 0.8);
+}
+
+.name {
+  color: rgba(18, 14, 13, 1);
+text-shadow: 1px 1px #b3d9ff;
+text-align: left;
+  font-size: 2rem;
+  padding-top: 2px;
+  padding-bottom: 2px;
+padding-left: 30px;
+margin-top: 0;
+background-color: rgba(247, 246, 246, 0.75);
+font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  background-color: #1a0d00;
+}
+
+.projectpage {
+color: rgba(18, 14, 13, 1);
+text-shadow: 1px 1px #b3d9ff;
+text-align: left;
+font-size: 2rem;
+padding-top: 0px;
+padding-bottom: 2px;
+padding-left: 30px;
+background-color: rgba(247, 246, 246, 0.75);
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.form {
+  font-family: 'Lato', sans-serif;
+  }
+
+  .timeframe {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+
+  label {
+    background-color: #b3d9ff;
+  }
+
+h4 {
+font-size: 1.5rem;
+}
+.ref {
+  padding-top: 5px;
+  margin-top: 30px;
+}
